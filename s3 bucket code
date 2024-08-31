@@ -1,0 +1,7 @@
+resource "aws_s3_bucket" "pc_bucket" {
+    bucket= "bucket-name-pc-cool-demo"
+    tags = {
+     Name = "pc bucket demo cool"
+     Environment = "dev"
+}
+}
